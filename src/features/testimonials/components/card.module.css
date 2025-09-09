@@ -1,0 +1,30 @@
+.card {
+    background-color: var(--color-highlight);
+    padding: 2rem;
+    color: var(--color-dark);
+    border-radius: 8px;
+}
+
+.card img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-height: 100px;
+}
+.name {
+    font-size: 1.8rem;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.feedback {
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 2rem;
+    color: var(--color-primary-yellow)
+}

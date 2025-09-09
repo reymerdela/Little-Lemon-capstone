@@ -1,0 +1,19 @@
+.specials {
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.specials h2 {
+    font-size: 6.4rem;
+    font-weight: 500;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}

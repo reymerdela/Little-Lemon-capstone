@@ -1,0 +1,71 @@
+@import '@fontsource/karla';
+@import '@fontsource/markazi-text/500.css';
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.font-karla {
+  font-family: 'Karla', sans-serif;
+}
+
+.font-markazi {
+  font-family: 'Markazi Text', sans-serif;
+  letter-spacing:  0.1rem;
+}
+
+
+:root {
+  --color-primary-green: #495E57;
+  --color-primary-yellow: #F4CE14;
+  --color-secondary-orange: #EE9972;
+  --color-secondary-light: #FBDABB;
+  --color-highlight: #EDEFEE;
+  --color-dark: #333333;
+}
+
+body {
+  margin: 0;
+  font-family: 'karla', sans-serif;
+  background-color: #ffffff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container-padding {
+  padding: 0 max(calc((100vw - 1100px) / 2), 2.4rem);
+}
+
+.button {
+    padding: 1rem 3rem;
+    border-radius: 16px;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    background-color: var(--color-primary-yellow);
+}
+.button:hover {
+    cursor: pointer;
+    background-color: var(--color-highlight);
+}
+.button:active {
+    background-color: var(--color-highlight);
+    transform: scale(0.96);
+    transition: transform 0.1s;
+}

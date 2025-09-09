@@ -1,0 +1,26 @@
+.bookingForm {
+    display: grid;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.bookingForm label {
+    font-size: 1.6rem;
+    flex: 1;
+    color: var(--color-dark);
+    font-weight: 500;
+}
+.bookingForm > div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.bookingForm input,
+.bookingForm select {
+    flex: 2;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    border: 1px solid var(--color-highlight);
+    border-radius: 4px;
+}

@@ -1,0 +1,21 @@
+.button {
+    padding: 1rem 3rem;
+    border-radius: 16px;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    background-color: var(--color-primary-yellow);
+}
+.button:hover {
+    cursor: pointer;
+    background-color: var(--color-highlight);
+}
+.button:active {
+    background-color: var(--color-highlight);
+    transform: scale(0.96);
+    transition: transform 0.1s;
+}
+.secondary {
+    background-color: transparent;
+}
